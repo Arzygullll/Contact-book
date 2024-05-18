@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 89%;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(63, 95, 140);
+  background: radial-gradient(
+    circle,
+    rgba(63, 95, 140, 1) 0%,
+    rgba(47, 47, 172, 1) 43%,
+    rgba(47, 140, 172, 1) 100%
+  );
+  /* background-image: url(https://kartinki.pics/pics/uploads/posts/2022-08/1660584750_8-kartinkin-net-p-samii-krasivii-fon-v-mire-krasivo-9.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7; 
+  z-index: -1; */
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(84, 96, 158, 0.8);
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.neon-text {
+  font-size: 50px;
+  color: rgb(239, 239, 255);
+  text-shadow: 0 0 5px #00f, 0 0 10px #00f, 0 0 15px #00f, 0 0 20px #00f,
+    0 0 25px #00f;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: #24365e;
+}
+
+.main-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+button {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+  background-color: #0a3497;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #25355a;
+}
+
+#contactList {
+  margin-top: 20px;
+}

@@ -1,0 +1,25 @@
+{
+  "contacts": [
+    {
+      "firstName": "Arzygul",
+      "lastName": "Alymkulova",
+      "phone": "+996777555333",
+      "photo": "https://img.freepik.com/free-photo/anime-character-listening-to-music_23-2151103405.jpg?size=338&ext=jpg&ga=GA1.1.34264412.1713225600&semt=ais",
+      "id": 1
+    },
+    {
+      "firstName": "Elina",
+      "lastName": "Isanaliva",
+      "phone": "+996555888222",
+      "photo": "https://img.freepik.com/premium-photo/portrait-girl-with-blue-dress-blue-dress_662214-22604.jpg",
+      "id": 2
+    },
+    {
+      "firstName": "Aisuluu",
+      "lastName": "Osmonova",
+      "phone": "+996222444111",
+      "photo": "https://abrakadabra.fun/uploads/posts/2021-12/1640356072_2-abrakadabra-fun-p-art-devushka-s-dlinnimi-volosami-2.jpg",
+      "id": 3
+    }
+  ]
+}
